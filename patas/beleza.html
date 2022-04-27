@@ -20,6 +20,7 @@
             color: #E24C75;
             font-size: 30px;
             text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479);
             
         }
         
@@ -30,6 +31,9 @@
             background-size: cover ;
             background-attachment: fixed;
             box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.473);
+            margin: 10px;
+            border-radius: 10px;
+
         
         }
 
@@ -48,13 +52,43 @@
             font-weight: bold;
         }
        
-        
+        .mestra {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .filha {
+            
+            width: 200px;
+            height: 250px;
+            background-color: #FDCB7F;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Krub', sans-serif;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.418);
+        }
+
+        @media (max-width: 999px) {
+            .mestra {
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            section {
+                display: flex;
+                justify-content: center;
+            }
+        }
 
     </style>
 </head>
 <body>
     <header>
-        <h1>Hora do tratamento de beleza!</h1>
+        <h1>Hora do Tratamento de Beleza!</h1>
     </header>
     <main>
         
@@ -64,35 +98,23 @@
 
         <section id="imagem-inicio-1">
             
-                <a href="#">
-                    <div class="d1">
-                        <img srcset="
-                        img-patas/pata-100.png 100w,
-                        img-patas/pata-300.png 300w,
-                        img-patas/pata-500.png 500w"
-                        sizes="
-                        (max-width: 300px) 100px,
-                        (max-width: 600px) 300px,
-                        500px"
-                        src="img-patas/pata-500.png" alt="link pata">
-                        <p class="texto2">BANHO</p>
-                    </div>
-                </a>
-
-                <a href="#">
-                    <div class="d1">
-                        <img srcset="
-                        img-patas/pata-100.png 100w,
-                        img-patas/pata-300.png 300w,
-                        img-patas/pata-500.png 500w"
-                        sizes="
-                        (max-width: 300px) 100px,
-                        (max-width: 600px) 300px,
-                        500px"
-                        src="img-patas/pata-500.png" alt="link pata">
-                        <p class="texto2">TOSA</p>
-                    </div>
-                </a>
+            <div class="mestra">
+                <div class="filha">
+                    <h2>Banho</h2>
+                    <h3>R$ 35,00</h3>
+                    <p>Pelo curto</p>
+                    <h3>R$ 40,00</h3>
+                    <p>Pelo longo</p>
+                    
+                </div>
+                <div class="filha">
+                    <h2>Tosa</h2>
+                    <h3>R$ 40,00</h3>
+                    <p>Tosa higiênica</p>
+                    <h3>R$ 45,00</h3>
+                    <p>Tosa escolhida</p>
+                </div>
+            </div>
             
         </section>
     </main>
