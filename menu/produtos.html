@@ -5,8 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rancho&display=swap');
+
+        body {
+            background-color: #F2DFA7;
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 80px;
+            padding-top: 20px;
+            font-family: 'Rancho', cursive;
+            font-size: 30px;
+            color: #E24C75;
+            text-align: center;
+
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            font-family: 'Krub', sans-serif;
+        }
+
+        section {
+            display: flex; 
+        }
+
+        .mestra {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filha {
+            
+            padding: 20px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #FDCB7F;
+            height: 300px;
+            width: 300px;
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.473);
+        }
+
+        .mestra :hover {
+            filter: brightness(40%);
+        }
+
+        @media (max-width: 999px) {
+            
+            section {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    </style>
 </head>
 <body>
-   
+   <header>
+        <h1>Produtos para o seu pet</h1>
+   </header>
+   <main>
+       <section>
+           <div class="mestra">
+                <div class="filha">
+                    <img src="img-menu/shmaphoo.png" alt="shamphoo-dog">
+                    <h2>R$ 10,00</h2>
+                    <p>Shamphoo para cachorro</p>
+                </div>
+                <div class="filha">
+                    <img src="img-menu/condicionador.png" alt="condicionador-dog">
+                    <h2>R$ 10,99</h2>
+                    <p>Condicionador para cachorro</p>
+                </div>
+                <div class="filha">
+                    <img src="img-menu/creme-dental.png" alt="creme-dental-dog">
+                    <h2>R$ 7,80</h2>
+                    <p>Creme dental para cachorro</p>
+                </div>
+           </div>
+           <div class="mestra">
+                <div class="filha">
+                    <img src="img-menu/cama dog.png" alt="cama-dog">
+                    <h2>R$ 59,90</h2>
+                    <p>Caminha para cachorro</p>
+                </div>
+                <div class="filha">
+                    <br><br><br><br>
+                    <img src="img-menu/simparic.png" alt="simparic">
+                    <h2>R$ 79,99</h2>
+                    <p>Simparic</p>
+                </div>
+                <div class="filha">
+                    <img src="img-menu/vermifego.png" alt="vermifego">
+                    <h2>R$ 14,80</h2>
+                    <p> Vermifego</p>
+                </div>
+           </div>
+           <div class="mestra">
+                <div class="filha">
+                    <img src="img-menu/brinquedo-1.png" alt="brinquedo-1">
+                    <h2>R$ 15,00</h2>
+                    <p>Brinquedo de corda</p>
+                </div>
+                <div class="filha">
+                    <img src="img-menu/brinquedo-3.png" alt="brinquedo-3">
+                    <h2>R$ 10,00</h2>
+                    <p>Galinha de borracha</p>
+                </div>
+                <div class="filha">
+                    <img src="img-menu/brinquedo-2.png" alt="brinquedo-2">
+                    <h2>R$ 7,80</h2>
+                    <p>Bola de borracha</p>
+                </div>
+           </div>
+       </section>
+   </main>
+   <footer>
+
+   </footer>
 </body>
 </html>
