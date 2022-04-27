@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beleza</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rancho&display=swap');
+
+        body {
+            background-color: #F2DFA7; 
+        }
+
+        header {
+            font-family: 'Rancho', cursive;
+            color: #E24C75;
+            font-size: 30px;
+            text-align: center;
+            background-color: #FDCB7F;
+        }
+        
+        #imagem-inicio-2 {
+            height: 600px;
+            background-image: url(img-patas/pexels-tima-miroshnichenko-6131150.jpg);
+            background-position: center center;
+            background-size: cover ;
+            background-attachment: fixed;
+            box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.473);
+        
+        }
+
+        #imagem-inicio-1 {
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        a {
+            font-family: 'Rancho', cursive;
+            text-decoration: none;
+            color: #E24C75;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+       
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hora do tratamento da beleza!</h1>
+    </header>
+    <main>
+        
+        <section id="imagem-inicio-2">
+            <p></p>
+        </section>
+
+        <section id="imagem-inicio-1">
+            
+                <a href="#">
+                    <div class="d1">
+                        <img srcset="
+                        img-patas/pata-100.png 100w,
+                        img-patas/pata-300.png 300w,
+                        img-patas/pata-500.png 500w"
+                        sizes="
+                        (max-width: 300px) 100px,
+                        (max-width: 600px) 300px,
+                        500px"
+                        src="img-patas/pata-500.png" alt="link pata">
+                        <p class="texto2">BANHO</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="d1">
+                        <img srcset="
+                        img-patas/pata-100.png 100w,
+                        img-patas/pata-300.png 300w,
+                        img-patas/pata-500.png 500w"
+                        sizes="
+                        (max-width: 300px) 100px,
+                        (max-width: 600px) 300px,
+                        500px"
+                        src="img-patas/pata-500.png" alt="link pata">
+                        <p class="texto2">TOSA</p>
+                    </div>
+                </a>
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
