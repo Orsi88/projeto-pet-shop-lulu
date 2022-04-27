@@ -83,6 +83,13 @@ a {
 }
 
 
+.tipo3 {
+    padding: 30px;
+}
+
+p {
+    padding: 5px;
+}
 
 .tipo31 {
     background: var(--cor4);
@@ -94,7 +101,7 @@ a {
     color: var(--cor3);
     font-weight: normal;
     text-align: center;
-    padding-top: 20px;
+    
     
 }
 
