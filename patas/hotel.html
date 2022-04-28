@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <title>Hotel</title>
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rancho&display=swap');
+
+        body {
+            background-color: #F2DFA7;
+        }
+
+        header {
+            height: 100px;
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Rancho', cursive;
+            color: #E24C75;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+        }
+
+        h1 {
+            padding: 10px;
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        .img1 {
+            height: 400px;
+            background-image: url(img-patas/pexels-kat-smith-551628.jpg);
+            background-position: center center;
+            background-size: cover ;
+            background-attachment: fixed;
+            box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.473);
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .mestra {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .filha {
+            
+            width: 200px;
+            height: 250px;
+            background-color: #FDCB7F;
+            margin: 20px;
+            padding: 20px;
+            text-align: justify;
+            font-family: 'Krub', sans-serif;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.418);
+        }
+
+        @media (max-width: 999px) {
+            .mestra {
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            section {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .aviso {
+        background: #f5b8db;
+        width: 100%;
+        height: 280px;
+        margin-top: 80px;
+        font-family: 'Krub', sans-serif;
+        font-size: 25px;
+        color: #E24C75;
+        font-weight: normal;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        footer {
+            margin: 40px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Hospedagem</h1>
+    </header>
+    <main>
+        <section class="img1">
+            <p></p>
+        </section>
+        <section>
+            <div class="mestra">
+                <div class="filha">
+                    <h2>Plano 1</h2>
+                    <h3>R$ 100,00</h3>
+                    <ul>
+                        <li>2 refeições + 2 lanches</li>
+                        <li>área livre</li>
+                        <li>dormitório</li>
+                    </ul>
+                </div>
+                <div class="filha">
+                    <h2>Plano 2</h2>
+                    <h3>R$ 130,00</h3>
+                    <ul>
+                        <li>2 refeições + 2 lanches</li>
+                        <li>área livre</li>
+                        <li>dormitório</li>
+                        <li>1 passeio</li>
+                    </ul>
+                </div>
+                <div class="filha">
+                    <h2>Plano 3</h2>
+                    <h3>R$ 180,00</h3>
+                    <ul>
+                        <li>2 refeições + 2 lanches</li>
+                        <li>área livre</li>
+                        <li>dormitório</li>
+                        <li>1 passeio</li>
+                        <li>higienização</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="aviso">
+                <br>
+                <h2>IMPORTANTE!</h2>
+                <p>Os planos acima são planos diários, ou seja os valores dados são cobrados por dia!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="http://127.0.0.1:5500/index.html"><img src="img-patas/logo-cat1-pp.png" alt="voltar"></a>
+    </footer>
 </body>
 </html>
