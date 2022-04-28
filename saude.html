@@ -5,54 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Beleza</title>
+    <title>Saúde</title>
     <style>
-        
-        @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand&display=swap');
 
-        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rancho&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rancho&display=swap');
 
         body {
-            background-color: #F2DFA7; 
+            background-color: #F2DFA7;
         }
 
         header {
+            height: 100px;
+            margin-bottom: 80px;
+            text-align: center;
+            font-size: 30px;
             font-family: 'Rancho', cursive;
             color: #E24C75;
-            font-size: 30px;
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479);
-            
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
         }
-        
-        #imagem-inicio-2 {
+
+        h1 {
+            padding: 10px;
+        }
+
+        .img1 {
             height: 400px;
-            background-image: url(img-patas/pexels-tima-miroshnichenko-6131150.jpg);
+            background-image: url(img-patas/pexels-gustavo-fring-6816869.jpg);
             background-position: center center;
             background-size: cover ;
             background-attachment: fixed;
             box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.473);
             margin: 10px;
             border-radius: 10px;
-
-        
         }
 
-        #imagem-inicio-1 {
-            display: flex;
-            justify-content: space-around;
-            
-        }
-
-        a {
-            font-family: 'Rancho', cursive;
-            text-decoration: none;
-            color: #E24C75;
-            font-size: 20px;
-            text-align: center;
-            font-weight: bold;
-        }
-       
         .mestra {
             display: flex;
             justify-content: center;
@@ -94,38 +82,40 @@
 </head>
 <body>
     <header>
-        <h1>Hora do Tratamento de Beleza!</h1>
+        <h1>O Melhor para a Saúde do seu Pet!</h1>
     </header>
     <main>
-        
-        <section id="imagem-inicio-2">
+        <section class="img1">
             <p></p>
         </section>
-
-        <section id="imagem-inicio-1">
-            
+        <section>
             <div class="mestra">
                 <div class="filha">
-                    <h2>Banho</h2>
-                    <h3>R$ 35,00</h3>
-                    <p>Pelo curto</p>
-                    <h3>R$ 40,00</h3>
-                    <p>Pelo longo</p>
-                    
+                    <h2>Vacinas</h2>
+                    <h3>R$ 50,00</h3>
+                    <p>Nacional</p>
+                    <h3>R$ 100,00</h3>
+                    <p>Internacional</p>
                 </div>
                 <div class="filha">
-                    <h2>Tosa</h2>
-                    <h3>R$ 40,00</h3>
-                    <p>Tosa higiênica</p>
-                    <h3>R$ 45,00</h3>
-                    <p>Tosa escolhida</p>
+                    <h2>Consultas</h2>
+                    <h3>R$ 80,00</h3>
+                    <p>Horário comercial <br> (8h - 18h)</p>
+                    <h3>R$ 110,00</h3>
+                    <p>Plantão</p>
+                </div>
+                <div class="filha">
+                    <h2>Exames</h2>
+                    <h3>R$ 20,00</h3>
+                    <p>Convênio</p>
+                    <h3>R$ 80,00</h3>
+                    <p>Particular</p>
                 </div>
             </div>
-            
         </section>
     </main>
     <footer>
-        <a href="http://127.0.0.1:5500/index.html"><img src="img-patas/logo-cat1-pp.png" alt="voltar"></a>
+        <a href="index.html"><img src="img-patas/logo-cat1-pp.png" alt="voltar"></a>
     </footer>
 </body>
 </html>
